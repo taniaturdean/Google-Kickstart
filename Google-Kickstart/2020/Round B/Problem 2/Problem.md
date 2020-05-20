@@ -1,7 +1,7 @@
 ### Problem
-Bucket is planning to make a very long journey across the countryside by bus. Her journey consists of N bus routes, numbered from 1 to N in the order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every Xi days.<br/>
+Bucket is planning to make a very long journey across the countryside by bus. Her journey consists of N bus routes, numbered from 1 to N in the order she must take them. The buses themselves are very fast, but do not run often. The i-th bus route only runs every X<sub>i</sub> days.<br/>
 
-More specifically, she can only take the i-th bus on day Xi, 2Xi, 3Xi and so on. Since the buses are very fast, she can take multiple buses on the same day.<br/>
+More specifically, she can only take the i-th bus on day X<sub>i</sub>, 2X<sub>i</sub>, 3X<sub>i</sub> and so on. Since the buses are very fast, she can take multiple buses on the same day.<br/>
 
 Bucket must finish her journey by day D, but she would like to start the journey as late as possible. What is the latest day she could take the first bus, and still finish her journey by day D?<br/>
 
@@ -9,7 +9,7 @@ It is guaranteed that it is possible for Bucket to finish her journey by day D.<
 
 *Input*
 
-The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the two integers N and D. Then, another line follows containing N integers, the i-th one is Xi.
+The first line of the input gives the number of test cases, T. T test cases follow. Each test case begins with a line containing the two integers N and D. Then, another line follows containing N integers, the i-th one is X<sub>i</sub>.
 
 *Output*
 
@@ -28,7 +28,7 @@ It is guaranteed that it is possible for Bucket to finish her journey by day D.
 1 ≤ D ≤ 100.
 
 *Test set 2*
-1 ≤ D ≤ 1012.
+1 ≤ D ≤ 10<sup>12</sup>.
 
 *Sample*
 
@@ -51,17 +51,17 @@ Case #3: 1<br/>
   
 In Sample Case #1, there are N = 3 bus routes and Bucket must arrive by day D = 10. She could:
 
-- Take the 1st bus on day 6 (X1 = 3),
-- Take the 2nd bus on day 7 (X2 = 7) and
-- Take the 3rd bus on day 8 (X3 = 2).
+- Take the 1st bus on day 6 (X<sub>1</sub> = 3),
+- Take the 2nd bus on day 7 (X<sub>2</sub>= 7) and
+- Take the 3rd bus on day 8 (X<sub>3</sub> = 2).
 
 In Sample Case #2, there are N = 4 bus routes and Bucket must arrive by day D = 100. She could:
 
-- Take the 1st bus on day 99 (X1 = 11),
-- Take the 2nd bus on day 100 (X2 = 10),
-- Take the 3rd bus on day 100 (X3 = 5) and
-- Take the 4th bus on day 100 (X4 = 50),
+- Take the 1st bus on day 99 (X<sub>1</sub> = 11),
+- Take the 2nd bus on day 100 (X<sub>2</sub> = 10),
+- Take the 3rd bus on day 100 (X<sub>3</sub> = 5) and
+- Take the 4th bus on day 100 (X<sub>4</sub> = 50),
 
 In Sample Case #3, there is N = 1 bus route and Bucket must arrive by day D = 1. She could:
 
-- Take the 1st bus on day 1 (X1 = 1).
+- Take the 1st bus on day 1 (X<sub>1</sub> = 1).
